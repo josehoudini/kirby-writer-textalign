@@ -6,10 +6,13 @@ Adds text alignment buttons (left, center, right) to the Kirby Writer field.
 
 ### Download
 
-1. [Download the latest release](https://github.com/josehoudini/kirby-writer-textalign/releases)
+1. Download the .zip
 2. Copy the folder into `/site/plugins/kirby-writer-textalign`
 
-### Composer
+## Usage
+1. The plugin automatically adds alignment buttons to all Writer fields
 
-```bash
-composer require josehoudini/kirby-writer-textalign
+```yaml
+fields:
+  text:
+    type: writer
