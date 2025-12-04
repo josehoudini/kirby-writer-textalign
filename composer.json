@@ -1,6 +1,6 @@
 {
     "name": "josehoudini/kirby-writer-textalign",
-    "version": "0.2.5",
+    "version": "0.3.1",
     "description": "Adds text alignment buttons to the Kirby Writer field.",
     "homepage": "https://github.com/josehoudini/kirby-writer-textalign",
     "type": "kirby-plugin",
@@ -16,10 +16,5 @@
     },
     "extra": {
         "installer-name": "kirby-writer-textalign"
-    },
-    "config": {
-        "allow-plugins": {
-            "getkirby/composer-installer": true
-        }
     }
 }
