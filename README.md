@@ -5,7 +5,7 @@ Adds text alignment buttons (left, center, right) to the Kirby Writer field.
 ## Installation
 
 ### Download
-1. Run ``composer install josehoudini/kirby-writer-textalign``
+1. Run ``composer require josehoudini/kirby-writer-textalign``
 
 or
 
