@@ -1,0 +1,14 @@
+.k-writer .align-left {
+  display: block;
+  text-align: left;
+}
+
+.k-writer .align-center {
+  display: block;
+  text-align: center;
+}
+
+.k-writer .align-right {
+  display: block;
+  text-align: right;
+}

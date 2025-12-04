@@ -10,5 +10,6 @@ Kirby::plugin('josehoudini/kirby-writer-textalign', [
     ],
     'panel' => [
         'js' => 'dist/index.js',
+        'css'=> 'dist/index.css'
     ],
 ]);

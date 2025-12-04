@@ -136,52 +136,6 @@ window.panel.plugin("gemini-services/gs-textalign", {
                     toDOM: () => ["span", { class: "align-right" }, 0],
                 };
             },
-        },
-
-        "grey-out": {
-            get button() {
-                return {
-                    icon: "palette",
-                    label: window.panel.$t("Grey Out Area"),
-                };
-            },
-            commands() {
-                return () => this.toggle();
-            },
-            get name() {
-                return "grey-out";
-            },
-            get schema() {
-                return {
-                    parseDOM: [{ tag: "span.grey-out" }],
-                    toDOM: () => ["span", { class: "grey-out" }, 0],
-                };
-            },
-        },
+        }
     },
 });
-
-// Add CSS for all custom marks
-const style = document.createElement("style");
-style.innerHTML = `
-.k-writer .grey-out {
-  opacity: 0.5;
-  transition: opacity 0.2s ease;
-}
-
-.k-writer .align-left {
-  display: block;
-  text-align: left;
-}
-
-.k-writer .align-center {
-  display: block;
-  text-align: center;
-}
-
-.k-writer .align-right {
-  display: block;
-  text-align: right;
-}
-`;
-document.head.appendChild(style);
