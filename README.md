@@ -19,6 +19,10 @@ or
 fields:
   text:
     type: writer
+    marks:
+      - align-left
+      - align-center
+      - align-right
 ```
 
 2. Define your css classes:
