@@ -1,6 +1,8 @@
 <?php
 
-Kirby::plugin('josehoudini/kirby-writer-textalign', [
+use Kirby\Cms\App;
+
+App::plugin('josehoudini/kirby-writer-textalign', [
     'translations' => [
         'en' => [
             'Align Left' => 'Align Left',
@@ -8,8 +10,8 @@ Kirby::plugin('josehoudini/kirby-writer-textalign', [
             'Align Right' => 'Align Right',
         ],
     ],
-    'panel' => [
-        'js' => 'dist/index.js',
-        'css'=> 'dist/index.css'
+    'assets' => [
+        'js' => 'index.js',
+        'css' => 'index.css'
     ],
 ]);
