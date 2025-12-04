@@ -1,4 +1,4 @@
-window.panel.plugin("gemini-services/gs-textalign", {
+window.panel.plugin("josehoudini/kirby-writer-textalign", {
     writerMarks: {
         "align-left": {
             get button() {
